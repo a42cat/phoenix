@@ -1,0 +1,15 @@
+#!/usr/bin/env php
+
+<?php
+
+use Phoenix\Phoenix;
+
+if (PHP_SAPI != "cli") {
+    exit;
+}
+
+set_time_limit(0);
+
+$loader = require __DIR__ . '/vendor/autoload.php';
+
+Phoenix::run(is_array($argv) ? $argv : array());
