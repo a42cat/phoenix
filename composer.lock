@@ -1,0 +1,67 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "6cd75085290ad208c640872086d00dcd",
+    "packages": [
+        {
+            "name": "shasoft/console",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/shasoft/console.git",
+                "reference": "9acd7ee8d6ce7eb745bf72dafeb4be181054b2dd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/shasoft/console/zipball/9acd7ee8d6ce7eb745bf72dafeb4be181054b2dd",
+                "reference": "9acd7ee8d6ce7eb745bf72dafeb4be181054b2dd",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Shasoft\\Console\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Valery Shabanov",
+                    "email": "dev@shasoft.com"
+                }
+            ],
+            "description": "Shasoft Console",
+            "homepage": "http://shasoft.com/article/klass_php_dlya_vyvoda_v_konsol_tsvetnogo_teksta",
+            "keywords": [
+                "color",
+                "colors",
+                "console",
+                "output",
+                "text"
+            ],
+            "support": {
+                "issues": "https://github.com/shasoft/console/issues",
+                "source": "https://github.com/shasoft/console/tree/master"
+            },
+            "time": "2018-12-06T09:01:09+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "shasoft/console": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.1.0"
+}

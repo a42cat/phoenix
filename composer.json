@@ -1,0 +1,21 @@
+{
+  "name": "phoenix/phoenix",
+  "description": "Php utility for easy storage of frequently used scripts.",
+  "version": "0.0.1",
+  "minimum-stability": "dev",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "a42cat",
+      "email": "a42cat@gmail.com"
+    }
+  ],
+  "require": {
+    "shasoft/console": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "Phoenix\\": "src"
+    }
+  }
+}
